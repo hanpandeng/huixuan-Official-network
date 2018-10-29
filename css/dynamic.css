@@ -1,0 +1,160 @@
+@charset "utf-8";
+@import url("head_footer.css");
+@import url("dynamic_two.css");
+
+
+@media (min-width:960px) {
+    .tab {
+        width: 100%;
+        padding: 5% 10%;
+        background: url(../img/dynamic/bg2.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }
+
+    .tab_box {
+        width: 100%;
+        box-shadow: 0 0 5px #ccc;
+        border-radius: 0.5vw;
+        padding: 2%;
+    }
+
+    .tab_header {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #e2e2e2;
+    }
+
+    .tab_header span {
+        font-size: 1.2vw;
+        display: inline-block;
+        padding: 1% 0;
+        margin: 0 3%;
+        color: #999;
+        cursor: pointer;
+    }
+
+    .tab_header .span_click {
+        color: #ffd800;
+        border-bottom: 2px solid #ffd800;
+    }
+
+    .tab_box {
+        background: #fff;
+    }
+
+    .tab_main {
+        width: 100%;
+        display: none;
+    }
+
+    .tab_main_children {
+        width: 100%;
+        padding: 3% 0;
+        border-bottom: 1px solid #e2e2e2;
+        cursor: pointer;
+    }
+
+    .tab_main_children a {
+        display: flex;
+    }
+
+    .tab_main_children aside {
+        width: 80%;
+    }
+
+    .tab_main_children aside h3 {
+        width: 100%;
+        color: #333;
+        font-size: 1.2vw;
+        margin: 2% 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+
+    .tab_main_children aside div {
+        width: 100%;
+        font-size: 0.9vw;
+        color: #666;
+        line-height: 1.5vw;
+        text-indent: 2em;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+    }
+
+    .tab_main_children aside p {
+        width: 100%;
+        color: #999;
+        padding-top: 3%;
+    }
+
+    .tab_main_children article {
+        width: 20%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .tab_main_children article img {
+        width: 80%;
+        height: auto;
+    }
+
+    /* 分页 */
+    .fenye {
+        width: 100%;
+        padding: 5% 0 3% 0;
+        text-align: center;
+    }
+
+    .fenye a {
+        display: inline-block;
+        width: 2vw;
+        height: 2vw;
+        line-height: 2vw;
+        background: #f1f1f1;
+        color: #000;
+        font-size: 1vw;
+        border-radius: 50%;
+        margin: 0 1%;
+        cursor: pointer;
+    }
+
+    .fenye a:hover {
+        background: #ffd800;
+        color: #fff;
+    }
+
+    .jian {
+        color: #ffd800 !important;
+    }
+
+    .jian:hover {
+        background: #f1f1f1 !important;
+        color: #ffd800 !important;
+    }
+
+    .fenye input {
+        width: 2vw;
+        height: 2vw;
+        border-radius: 50%;
+        font-size: 1vw;
+        border: 0;
+        text-align: center;
+        background: #f1f1f1;
+    }
+
+    .up {
+        font-size: 0.8vw !important;
+    }
+
+    .tab_box .block {
+        display: block;
+    }
+
+}

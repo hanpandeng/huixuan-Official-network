@@ -1,0 +1,256 @@
+@charset "utf-8";
+@import url("head_footer.css");
+@import url("two_detail.css");
+
+@media (min-width: 960px) {
+    .detail {
+        width: 100%;
+        padding: 1% 20%;
+    }
+
+    .back {
+        color: #666;
+        padding-right: 5%;
+        font-size: 1vw;
+        line-height: 3vw;
+    }
+
+    .back:hover {
+        color: #ffd800;
+        transition: all .3s;
+    }
+
+    .back i {
+        color: #ffd800;
+        font-size: 1vw;
+    }
+
+    .detail_main {
+        width: 100%;
+        display: flex;
+        padding-bottom: 10%;
+    }
+
+    .detail_left {
+        width: 80%;
+        padding: 2%;
+        margin-right: 2%;
+        box-shadow: 0 0 5px #ccc;
+        border-radius: 0.5vw;
+    }
+
+    .detail_left_top {
+        display: flex;
+        padding-bottom: 5%;
+    }
+
+    .detail_left_img {
+        width: 20%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .detail_left_img img {
+        width: 80%;
+    }
+
+    .detail_left_top_main {
+        width: 70%;
+        padding: 0 2%;
+    }
+
+    .detail_left_top_main header {
+        font-size: 1vw;
+        line-height: 2vw;
+        white-space: nowrap;
+    }
+
+    .detail_left_top_main .label_parent {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .detail_left_top_main .label_parent span {
+        display: inline-block;
+        padding: 0 2%;
+        color: #fff;
+        border-radius: 1vw;
+        margin: 1% 1% 0 0;
+        font-size: 0.8vw;
+    }
+
+    .detail_left_top_main aside {
+        width: 100%;
+        font-size: 0.8vw;
+    }
+
+    .detail_left_top_main aside span {
+        font-size: 1.2vw;
+        color: #23aaff
+    }
+
+    .detail_left_top_main footer {
+        font-size: 0.8vw;
+    }
+
+    .icon-star_full {
+        color: #ffd800;
+        font-size: 1vw;
+    }
+
+    .detail_left_right {
+        width: 10%;
+        text-align: center;
+    }
+
+    .icon-yulan {
+        font-size: 1vw;
+        color: #666;
+    }
+
+
+    .detail_left_main {
+        width: 100%;
+    }
+
+    .brief,
+    .preview {
+        width: 100%;
+        font-size: 1vw;
+        padding: 1% 0;
+        color: #666;
+    }
+
+    .icon-vertical_line {
+        font-size: 1.2vw;
+        color: #ffd800;
+        font-weight: 600;
+    }
+
+    .brief_main {
+        width: 100%;
+        padding: 1% 5%;
+        display: flex;
+    }
+
+    .brief_main p {
+        width: 70%;
+        font-size: 0.6vw;
+        line-height: 1.5vw;
+    }
+
+    .brief_main div {
+        width: 20%;
+        text-align: center;
+        margin: auto;
+
+    }
+
+    .brief_main img {
+        width: 80%;
+    }
+
+    .preview article {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .preview article img {
+        width: calc(100% / 3);
+        height: 100%;
+        margin-top: 2%;
+    }
+
+
+
+    .guild_main_one_main_right {
+        width: 20%;
+        height: 100%;
+        box-shadow: 0 0 5px #ccc;
+        border-radius: 0.5vw;
+    }
+
+    .guild_main_one_main_right .guild_main_one_main_right_top {
+        font-size: 1vw;
+        padding: 5% 0;
+        margin: 0 5%;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .icon-vertical_line {
+        color: #ffd800;
+        font-size: 1vw;
+        font-weight: 600;
+    }
+
+    .guild_main_one_main_right_main {
+        padding: 5% 0;
+    }
+
+    .introduce {
+        width: 100%;
+
+    }
+
+    .introduce a {
+        display: flex;
+        margin: 2% 5%;
+    }
+
+    .introduce a article {
+        width: 40%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .introduce a article img {
+        width: 100%;
+    }
+
+    .introduce a div {
+        width: 70%;
+        margin: 0 5%;
+        overflow: hidden;
+    }
+
+    .introduce_top {
+        width: 80%;
+        font-size: 1vw;
+        /* padding: 2% 0; */
+        line-height: 2vw;
+        color: #444;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .introduce a div aside {
+        color: #000;
+        font-size: 0.8vw;
+        white-space: nowrap;
+    }
+
+    .introduce a div footer {
+        white-space: nowrap;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* .detail_right {
+        width: 20%;
+    } */
+}

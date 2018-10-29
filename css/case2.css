@@ -1,0 +1,222 @@
+@charset "utf-8";
+
+@media (max-width:960px) {
+    .guild {
+        width: 100%;
+        padding: 5% 20%;
+    }
+
+    .guild_top {
+        width: 100%;
+        display: flex;
+    }
+
+    .guild_top_left,
+    .guild_top_right {
+        width: 50%;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .guild_top_left_top,
+    .guild_top_right_top {
+        padding: 1% 0;
+        color: #999;
+        font-size: 1vw;
+    }
+
+    .guild_top_left_top {
+        color: #ffd800;
+    }
+
+    .guild_top_right_top {}
+
+    .guild_top_left_bottom,
+    .guild_top_right_bottom {
+        width: 100%;
+        /* border-bottom: 2px solid #ffd800; */
+    }
+
+    .guild_top_left_bottom {
+        border-bottom: 2px solid #ffd800;
+    }
+
+    .guild_top_right_bottom {
+        border-bottom: 2px solid #ccc;
+    }
+
+    .guild_top_left_bottom span,
+    .guild_top_right_bottom span {
+        display: block;
+        width: 0;
+        height: 15px;
+        margin: 0 auto;
+        border-bottom: 12px solid transparent;
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+    }
+
+    .guild_top_left_bottom span {
+        border-bottom-color: #ffd800;
+    }
+
+    .guild_top_right_bottom span {
+        border-bottom-color: #ffd800;
+        opacity: 0;
+    }
+
+    /* guild start */
+    .guild_main {
+        width: 100%;
+    }
+
+    .guild_main main {
+        display: none;
+    }
+
+    .guild_main_one {
+        width: 100%;
+    }
+
+    .guild_main_one_top {
+        display: flex;
+        padding: 2% 0;
+    }
+
+    .guild_main_one_top li {
+        flex: 1;
+        font-size: 0.9vw;
+        height: 2vw;
+        line-height: 2vw;
+        text-align: center;
+        margin: 0 1%;
+        background: #e2e2e2;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    .guild_main_one_top li:hover {
+        background: #ffd800 !important;
+        color: #fff;
+        transition: all 0.3s;
+    }
+
+    .yellow_hover {
+        background: #ffd800 !important;
+        color: #fff;
+    }
+
+    .guild_main_one_main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .guild_main_one_main li {
+        width: calc(100% / 3);
+        height: 100%;
+        padding: 2% 1%;
+        cursor: pointer;
+    }
+
+    .guild_main_one_main li:hover {
+        transform: scale(1.1, 1.1);
+        transition: all 0.3s linear;
+    }
+
+    .guild_main_one_main li img {
+        width: 100%;
+    }
+
+    .guild_main_one_main li p {
+        line-height: 3vw;
+        font-size: 0.9vw;
+    }
+
+    .guild_main_two_main {
+        padding: 5% 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .guild_main_two_main li {
+        width: calc(100% / 3);
+        height: 100%;
+        padding: 2% 2%;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .guild_main_two_main li:hover {
+        transform: scale(1.1, 1.1);
+        transition: all 0.3s linear;
+    }
+
+    .guild_main_two_main li img {
+        width: 100%;
+    }
+
+    .guild_main_two_main li p {
+        font-size: 0.9vw;
+        position: absolute;
+        bottom: 6%;
+        left: 50%;
+        transform: translatex(-50%);
+        white-space: nowrap;
+    }
+
+    .fenye {
+        width: 100%;
+        padding-top: 5%;
+        text-align: center;
+    }
+
+    .fenye a {
+        display: inline-block;
+        width: 3vw;
+        height: 3vw;
+        line-height: 3vw;
+        background: #f1f1f1;
+        color: #000;
+        font-size: 1vw;
+        border-radius: 50%;
+        margin: 0 1%;
+        cursor: pointer;
+    }
+
+    .fenye a:hover {
+        background: #ffd800;
+        color: #fff;
+    }
+
+    .jian {
+        color: #ffd800 !important;
+    }
+
+    .jian:hover {
+        background: #f1f1f1 !important;
+        color: #ffd800 !important;
+    }
+
+    .fenye input {
+        width: 3vw;
+        height: 3vw;
+        border-radius: 50%;
+        font-size: 1vw;
+        border: 0;
+        text-align: center;
+        background: #f1f1f1;
+    }
+
+    .up {
+        font-size: 0.8vw !important;
+    }
+
+    .block {
+        display: block !important;
+    }
+
+    /* guild end */
+}
